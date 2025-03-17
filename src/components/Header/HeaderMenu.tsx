@@ -10,7 +10,7 @@ interface HeaderMenuProps {
 function HeaderMenu({ menuItem }: HeaderMenuProps){
     return(
         <>
-            <NavLink to={menuItem.path} className="nav-item nav-link active" > {menuItem.title} </NavLink>
+            <NavLink to={menuItem.path || "#"} className="nav-item nav-link" > {menuItem.title} </NavLink>
         </>
     );
 }

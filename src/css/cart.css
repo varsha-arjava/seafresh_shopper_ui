@@ -195,3 +195,10 @@
 .dropdown-toggle::after {
     display: none;
 }
+.cart-count-position {
+    top: -5px;
+    left: 23px;
+    height: 18px;
+    min-width: 18px;
+    font-size: 13px;
+}
